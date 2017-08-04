@@ -1,25 +1,33 @@
-/* html {
+html {
   background: url(..assets/img/imac1280.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
-*/
-
-body, html {
-    height: 100%;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 50;
+    overflow: hidden;
+    background-color: #333;
 }
 
-.bg {
-    /* The image used */
-    background-image: url("../assets/img/imac1280.jpg");
+li {
+    float: left;
+}
 
-    /* Full height */
-    height: 100%;
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+li a:hover {
+    background-color: #E7C4DD;
+    text-decoration: none;
+
+
 }
