@@ -17,6 +17,7 @@ li {
     float: left;
 }
 
+
 li a {
     display: inline-block;
     color: white;
@@ -30,4 +31,28 @@ li a:hover {
     text-decoration: none;
 
 
+}
+body, html {
+      height: 100%;
+      margin: 0;
+            }
+
+        .bg {
+            /* The image used */
+            background-image: url("../assets/img/alarm.jpg");
+
+      /* Full height */
+      height: 100%;
+
+    /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+          }
+.boxmodel {
+    background-color: lightgrey;
+    width: 300px;
+    border: 25px solid #E7C4DD;
+    padding: 25px;
+    margin: 25px;
 }
