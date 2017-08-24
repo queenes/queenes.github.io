@@ -1,10 +1,28 @@
-html {
-  background: url(..assets/img/imac1280.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+body, html {
+height: 100%;
+margin: 0;
+font-family: 'Shadows Into Light', cursive;
+font-size: 20px;
+
+
 }
+
+.text-center {
+        font-family: 'Shadows Into Light', cursive;
+        font-size: 100px;
+      }
+.bg {
+  /* The image used */
+background-image: url("../assets/img/alarm.jpg");
+/* Full height */
+height: 100%;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -24,6 +42,9 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+
 }
 
 li a:hover {
@@ -32,27 +53,16 @@ li a:hover {
 
 
 }
-body, html {
-      height: 100%;
-      margin: 0;
-            }
 
-        .bg {
-            /* The image used */
-            background-image: url("../assets/img/alarm.jpg");
+#about {
+background-color: grey;
+height: 400px;
 
-      /* Full height */
-      height: 100%;
-
-    /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-          }
+}
 .boxmodel {
-    background-color: lightgrey;
-    width: 300px;
-    border: 25px solid #E7C4DD;
-    padding: 25px;
-    margin: 25px;
+    background-color: white;
+    width: 100%;
+    border: 2px solid #E7C4DD;
+    padding: 5px;
+    /*margin: 0px;*/
 }
